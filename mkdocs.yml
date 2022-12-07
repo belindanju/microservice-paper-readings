@@ -6,8 +6,31 @@ nav:
 
 theme:
   name: material
-  custom_dir: custom_page
 
+  custom_dir: overrides
+
+  features: 
+    - navigation.tracking
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+  
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: light blue
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: cyan
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
 
 plugins:
   - search:
