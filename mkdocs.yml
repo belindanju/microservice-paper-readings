@@ -6,6 +6,7 @@ nav:
 
 theme:
   name: material
+  custom_dir: custom_page
 
 
 plugins:
