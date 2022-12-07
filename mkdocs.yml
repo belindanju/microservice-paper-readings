@@ -1,0 +1,16 @@
+site_name: Microservice Paper Reading
+
+nav: 
+  - Home: index.md
+  - About: about.md
+
+theme:
+  name: material
+
+
+plugins:
+  - search:
+      lang: ja
+  - minify:
+      minify_html: true
+  - git-revision-date-localized
