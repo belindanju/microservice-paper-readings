@@ -1,25 +1,37 @@
 site_name: Microservice Paper Reading
+site_url: https://belindanju.github.io/microservice-paper-readings/
+
+repo_url: https://github.com/belindanju/microservice-paper-readings
+repo_name: microservice-paper-readings
+
+copyright: Copyright &copy; 2022 Tian Guo
+
 
 nav: 
   - Home: index.md
-  - About: about.md
+  - Resource Provisioning:
+    - The power of prediction: resource-provisioning/Luo2022-kp.md
 
 theme:
   name: material
-
   custom_dir: overrides
+
+  logo: images/CAKE.jpg
 
   features: 
     - navigation.tracking
-
-  font:
-    text: Roboto
-    code: Roboto Mono
+    - header.autohide
+    - navigation.top
   
   palette:
+      # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: light blue
+      primary: deep orange
       accent: deep purple
       toggle:
         icon: material/weather-sunny
@@ -32,9 +44,41 @@ theme:
         icon: material/weather-night
         name: Switch to light mode
 
+  icon:
+    repo: fontawesome/brands/github
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+
 plugins:
   - search:
       lang: ja
   - minify:
       minify_html: true
-  - git-revision-date-localized
+  - git-revision-date-localized:
+      enable_creation_date: true
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/belindanju
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/gtbelinda
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/tian-guo-21869421/
+    - icon: google-scholar
+      link: https://scholar.google.com/citations?user=vDzUD84AAAAJ&hl=en
+  analytics:
+    provider: google
+    property: G-YNNSZXE9WM
+  homepage: https://cake.wpi.edu

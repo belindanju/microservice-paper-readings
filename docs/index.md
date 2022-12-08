@@ -1,17 +1,23 @@
-# Welcome to MkDocs
+<figure markdown>
+  ![Image title](./images/CAKE.svg){ width="200" }
+</figure>
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+# Overview 
 
-## Commands
+Hello, my name is [Tian Guo](https://tianguo.info/) I am a computer science professor at WPI. 
+This site tracks academic research on microservice, as well as my personal reading notes. 
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Why This Site? 
 
-## Project layout
+A large part of my job is research, which roughly divides into keeping up with SToA, advising students, hands-on projects, and writing grant proposals. 
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+As an early 2023 new year resolution, I want to know more about microservice.
+I love reading and writing, so what would be a better way to keep me motivated.
+
+## Relevant Conferences 
+
+Here are the list of conferences, not in any particular order, which I find each paper. 
+
+- EuroSys
+- SoCC 
+- ICDCS 
