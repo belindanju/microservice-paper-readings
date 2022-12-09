@@ -12,6 +12,7 @@ nav:
   - Home: index.md
   - Resource Provisioning:
     - The power of prediction: resource-provisioning/Luo2022-kp.md
+    - DeepRest: resource-provisioning/Chow2022-pv.md
 
 theme:
   name: material
@@ -59,8 +60,10 @@ plugins:
       minify_html: true
   - git-revision-date-localized:
       enable_creation_date: true
+  - glightbox
 
 markdown_extensions:
+  - footnotes
   - attr_list
   - md_in_html
   - pymdownx.emoji:
