@@ -3,6 +3,7 @@ site_url: https://belindanju.github.io/microservice-paper-readings/
 
 repo_url: https://github.com/belindanju/microservice-paper-readings
 repo_name: microservice-paper-readings
+edit_uri: ./edit/main/docs
 
 copyright: Copyright &copy; 2022 Tian Guo
 
