@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://belindanju.github.io/microservice-paper-readings/</loc>
+         <lastmod>2023-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://belindanju.github.io/microservice-paper-readings/benchmarks/Gan2019-ed/</loc>
+         <lastmod>2023-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://belindanju.github.io/microservice-paper-readings/load-balancing/Abdi2023-ik/</loc>
+         <lastmod>2023-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://belindanju.github.io/microservice-paper-readings/resource-provisioning/Chow2022-pv/</loc>
+         <lastmod>2023-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://belindanju.github.io/microservice-paper-readings/resource-provisioning/Luo2022-kp/</loc>
+         <lastmod>2023-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
