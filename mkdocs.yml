@@ -10,9 +10,13 @@ copyright: Copyright &copy; 2022 Tian Guo
 
 nav: 
   - Home: index.md
+  - Benchmarks: 
+    - DeathStarBench: benchmarks/Gan2019-ed.md
   - Resource Provisioning:
     - The power of prediction: resource-provisioning/Luo2022-kp.md
     - DeepRest: resource-provisioning/Chow2022-pv.md
+  - Load Balancing:
+    - Palette Load Balancing: load-balancing/Abdi2023-ik.md
 
 theme:
   name: material
